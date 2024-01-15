@@ -41,7 +41,66 @@
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="section-banner container">
+        <div class="banner-content-box">
+          <h1 class="banner-title">Explore Your Travel</h1>
+          <p class="banner-text">
+            Unleash Your Wanderlust: Journey through the World's Canvas. Each
+            Destination a Poem, Every Experience a Verse. Let Travel Paint Your
+            Story.
+          </p>
+          <div class="banner-form-box">
+            <form action="" class="banner-form">
+              <input
+                type="text"
+                placeholder="Where go"
+                class="banner-form-input"
+              />
+
+              <select
+                id="start-date"
+                name="start-date"
+                class="banner-form-input"
+              >
+                <option value="" disabled selected>When</option>
+                <option value="immediate">Immediately</option>
+                <option value="next-month">Next Month</option>
+                <option value="in-three-months">In Three Months</option>
+                <option value="specific-date">Select a Specific Date</option>
+              </select>
+
+              <select
+                id="travel-type"
+                name="travel-type"
+                class="banner-form-input"
+              >
+                <option value="" disabled selected class="text-gray">
+                  Select Type
+                </option>
+                <option value="adventure">Adventure</option>
+                <option value="leisure">Leisure</option>
+                <option value="cultural">Cultural Exploration</option>
+                <option value="business">Business</option>
+              </select>
+              <a href="#" class="btn btn--form">
+                <ion-icon name="search-outline"></ion-icon>
+                <span>Find Now</span>
+              </a>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

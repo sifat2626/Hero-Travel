@@ -21,3 +21,15 @@ body {
   max-width: 81.25%;
   margin: 0 auto;
 }
+
+.btn {
+  text-decoration: none;
+  border-radius: 0.8rem;
+  padding: 1.6rem 2.4rem;
+  background-color: #ff5400;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
