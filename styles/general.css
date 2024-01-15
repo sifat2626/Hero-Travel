@@ -40,3 +40,9 @@ body {
   font-size: 4rem;
   font-weight: 800;
 }
+
+.text-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
