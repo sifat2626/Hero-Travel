@@ -100,3 +100,43 @@
   border-radius: 0.8rem;
   border: 0;
 }
+
+.btn--form {
+  gap: 0.8rem;
+}
+
+/* Section Popular */
+.section-popular {
+  margin-top: 9.6rem;
+}
+
+.popular-content-box {
+  display: flex;
+  gap: 6.4rem;
+}
+
+.popular-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: flex-start;
+}
+
+.popular-text,
+.popular-list {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1.6rem;
+  line-height: 2.6rem; /* 162.5% */
+}
+
+.popular-list {
+  padding-left: 3.2rem;
+}
+
+.popular-img-box {
+  width: 100%;
+}
+
+.popular-img-box img {
+  width: 100%;
+}
