@@ -348,3 +348,52 @@
   font-size: 2rem;
   font-weight: 800;
 }
+
+/* Section Choose */
+.section-video {
+  margin-top: 9.6rem;
+}
+
+.video-content-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+}
+
+.video-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.video-title {
+  color: #131318;
+  max-width: 48rem;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 6rem; /* 150% */
+}
+
+.video-list {
+  padding-left: 2.4rem;
+}
+
+.video-list-item {
+  color: #131318;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.6rem; /* 162.5% */
+}
+
+.video-video {
+  width: 100%;
+  border-radius: 1.6rem;
+
+  /* background: url("../Images/Group\ 40089.png"); */
+}
+
+/* Section Newsletter */
+.section-newsletter {
+  margin-top: 9.6rem;
+}
