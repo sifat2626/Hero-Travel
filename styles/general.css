@@ -24,9 +24,10 @@ body {
 }
 
 .btn {
+  min-width: 14rem;
   text-decoration: none;
   border-radius: 0.8rem;
-  padding: 1.4rem 3.2rem;
+  padding: 1.4rem 2.4rem;
   background-color: #ff5400;
   color: #fff;
   font-size: 1.6rem;
