@@ -92,12 +92,12 @@
   gap: 2.4rem;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 72rem;
 }
 
 .banner-form-input {
-  min-width: 16rem;
-  padding: 1.6rem;
+  width: 100%;
+  padding: 1.6rem 1.2rem;
   border-radius: 0.8rem;
   border: 0;
 }
