@@ -121,6 +121,8 @@
   flex-direction: column;
   gap: 2.4rem;
   align-items: flex-start;
+  width: 100%;
+  flex: 1;
 }
 
 .popular-list {
@@ -128,8 +130,15 @@
 }
 
 .popular-img-box {
+  /* object-fit: cover; */
   width: 100%;
+  flex: 1;
 }
+
+/* .popular-img-box img {
+  width: 100%;
+  height: 100%;
+} */
 
 .popular-img-box img {
   width: 100%;
@@ -185,6 +194,10 @@
   position: relative;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%);
   border-radius: 1.6rem;
+}
+
+.destination-img-box img {
+  width: 100%;
 }
 
 .img-text {
@@ -349,7 +362,79 @@
   font-weight: 800;
 }
 
-/* Section Choose */
+/* Section News */
+.section-news {
+  margin-top: 9.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-content-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3.2rem;
+  gap: 2.4rem;
+}
+
+.news-left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.news-left-item {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.news-left-news-part {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.news-left-news {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.icon-dot {
+  font-size: 0.8rem;
+}
+
+.news-left-title {
+  color: #131318;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 2.4rem;
+  max-width: 36rem;
+}
+
+.news-left-news {
+  display: flex;
+}
+
+.news-right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.news-right-title {
+  color: #131318;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 2.4rem;
+}
+
+.news-right-box img {
+  width: 100%;
+}
+
+/* Section video */
 .section-video {
   margin-top: 9.6rem;
 }
@@ -400,13 +485,13 @@
 
 .newsletter-content-box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
   align-items: center;
   justify-content: center;
   gap: 6.4rem;
 }
 
-.news-text-box {
+.newsletter-text-box {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -415,26 +500,36 @@
   padding: 4rem;
 }
 
-.news-title {
+.newsletter-title {
   color: #131318;
   font-size: 2.4rem;
   font-weight: 800;
 }
 
-.news-form {
+.newsletter-form {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
 }
 
-.news-form input {
+.newsletter-form input {
   padding: 1.6rem 2.4rem;
   border: none;
 }
 
-.btn--news {
+.btn--newsletter {
   display: flex;
   justify-content: center;
+}
+
+.newsletter-img-box {
+  /* width: 100%; */
+  height: 100%;
+}
+
+.newsletter-img-box img {
+  width: 100%;
+  /* height: 100%; */
 }
 
 /* Section Footer */
