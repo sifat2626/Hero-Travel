@@ -184,10 +184,9 @@ body {
 }
 
 .popular-content-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 6.4rem;
-  width: 100%;
-  flex: 1;
 }
 
 .popular-text-box {
@@ -195,7 +194,7 @@ body {
   flex-direction: column;
   gap: 1.6rem;
   align-items: flex-start;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
   flex: 1;
 }
@@ -205,14 +204,12 @@ body {
 }
 
 .popular-img-box {
-  /* object-fit: cover; */
-  width: 100%;
-  flex: 1;
+  max-height: 40rem;
 }
 
 .popular-img-box img {
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
 }
 
 /* .popular-img-box img {
