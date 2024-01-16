@@ -310,7 +310,7 @@ body {
 .choose-text-box p {
   margin-top: 1.6rem;
   margin-bottom: 3.2rem;
-  max-width: 64rem;
+  /* max-width: 64rem; */
 }
 
 .choose-boxes {
@@ -343,9 +343,9 @@ body {
   font-weight: 800;
 }
 
-.choose-box-item p {
+/* .choose-box-item p {
   max-width: 40rem;
-}
+} */
 
 .choose-img {
   width: 4.8rem;
