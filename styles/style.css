@@ -35,6 +35,11 @@ body {
   font-weight: 700;
   display: flex;
   align-items: center;
+  transition: 0.3s all;
+}
+
+.btn:hover {
+  background-color: #e64c00;
 }
 
 .section-title {
@@ -516,6 +521,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 1.6rem;
+  overflow: hidden;
 }
 
 .news-right-title {
@@ -527,6 +533,11 @@ body {
 
 .news-right-box img {
   width: 100%;
+  transition: 0.5s all;
+}
+
+.news-right-box img:hover {
+  transform: scale(1.1);
 }
 
 /* Section video */
