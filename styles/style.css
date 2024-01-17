@@ -171,7 +171,8 @@ body {
   max-width: 72rem;
 }
 
-.banner-form select {
+.banner-form select,
+.banner-form input {
   color: rgba(19, 19, 24, 0.5);
   font-size: 1.6rem;
 }
