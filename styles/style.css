@@ -812,7 +812,7 @@ body {
   }
 
   .destination-img-box img {
-    max-height: 30rem;
+    height: 30rem;
   }
 
   .deals-item {
