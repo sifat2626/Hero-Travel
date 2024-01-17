@@ -557,8 +557,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 1.6rem;
+  /* justify-content: space-between; */
+  gap: 0.8rem;
 }
 
 .video-img-box {
@@ -588,7 +588,7 @@ body {
 
 .video-video {
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   border-radius: 1.6rem;
 
   /* background: url("../Images/Group\ 40089.png"); */
